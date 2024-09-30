@@ -1,6 +1,0 @@
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\bin\Debug\ClassLibrary2.dll
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\DVLDdataAccessLayer.csproj.AssemblyReference.cache
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\DVLDdataAccessLayer.csproj.CoreCompileInputs.cache
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\ClassLibrary2.dll
-E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
