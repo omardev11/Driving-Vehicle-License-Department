@@ -35,7 +35,7 @@ The Driving Vehicle License Department System enables the management of applicat
 - **SQL Server** (for managing the database)
 
 ### Steps:
-1. Clone or download the repository from this link: https://github.com/omardev11/Driving-License-System.git
+1. Clone or download the repository from this link: https://github.com/omardev11/Driving-Vehicle-License-Department.git
 2. Open the solution file in Visual Studio.
 3. Set up the **SQL Server database** by importing the provided database schema and configuring the connection string in the project.
 4. Build the project and run the application.
@@ -45,4 +45,4 @@ The Driving Vehicle License Department System enables the management of applicat
 - The database includes tables for user data, license details, application forms, test results, and more.
 - **SQL Server** is used to store all the data, and you need to configure your database connection string in the app settings.
 
-Feel free to explore the code, contribute, or provide feedback! You can find the repository here: [Driving License System Repository](https://github.com/omardev11/Driving-License-System.git)
+I appreciate any suggestions or improvements
