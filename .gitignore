@@ -1,0 +1,18 @@
+# Visual Studio temporary files
+*.suo
+*.user
+*.userprefs
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code files
+.vscode/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+
+# Logs
+*.log
