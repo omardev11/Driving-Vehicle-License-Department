@@ -22,7 +22,7 @@ namespace DVLDDesltopFrontLayer
             InitializeComponent();
         }
         //public string _FilePath = "";
-        private static string _FilePath = @"E:\apps\c++\My Projects\New folder\UserName and password.txt";
+        private static string _FilePath = @"E:\apps\c++\My Projects\DVLD project\DVLD Project\UserName and password.txt";
 
         private void SaveUserName(string userName , string Password)
         {

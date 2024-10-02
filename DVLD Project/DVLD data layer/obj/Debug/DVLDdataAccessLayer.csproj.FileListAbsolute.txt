@@ -4,3 +4,9 @@ E:\apps\c++\programing advice course\C# and Database connective\New folder\Class
 E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\DVLDdataAccessLayer.csproj.CoreCompileInputs.cache
 E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\ClassLibrary2.dll
 E:\apps\c++\programing advice course\C# and Database connective\New folder\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\bin\Debug\ClassLibrary2.dll
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\bin\Debug\ClassLibrary2.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\obj\Debug\DVLDdataAccessLayer.csproj.AssemblyReference.cache
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\obj\Debug\DVLDdataAccessLayer.csproj.CoreCompileInputs.cache
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\obj\Debug\ClassLibrary2.dll
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD data layer\obj\Debug\ClassLibrary2.pdb

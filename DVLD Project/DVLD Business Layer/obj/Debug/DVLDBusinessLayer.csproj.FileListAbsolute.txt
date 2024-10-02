@@ -16,3 +16,12 @@ E:\apps\c++\My Projects\New folder\DVLD Business Layer\obj\Debug\DVLDBusinessLay
 E:\apps\c++\My Projects\New folder\DVLD Business Layer\obj\Debug\DVLDBusi.7D6D57CA.Up2Date
 E:\apps\c++\My Projects\New folder\DVLD Business Layer\obj\Debug\ClassLibrary3.dll
 E:\apps\c++\My Projects\New folder\DVLD Business Layer\obj\Debug\ClassLibrary3.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\bin\Debug\ClassLibrary3.dll
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\bin\Debug\ClassLibrary3.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\bin\Debug\ClassLibrary2.dll
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\bin\Debug\ClassLibrary2.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\obj\Debug\DVLDBusinessLayer.csproj.AssemblyReference.cache
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\obj\Debug\DVLDBusinessLayer.csproj.CoreCompileInputs.cache
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\obj\Debug\DVLDBusi.7D6D57CA.Up2Date
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\obj\Debug\ClassLibrary3.dll
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Business Layer\obj\Debug\ClassLibrary3.pdb

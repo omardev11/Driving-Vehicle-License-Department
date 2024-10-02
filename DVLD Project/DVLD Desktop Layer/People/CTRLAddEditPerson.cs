@@ -60,7 +60,10 @@ namespace DVLDDesltopFrontLayer
 
                     try
                     {
-                        File.Delete(_Person.ImagePath);
+                        if (File.Exists(_Person.ImagePath))
+                        {
+                            File.Delete(_Person.ImagePath);
+                        }
                     }
                     catch (IOException)
                     {
@@ -70,7 +73,7 @@ namespace DVLDDesltopFrontLayer
                 }
             }
 
-                string DestinationsFolder = @"E:\apps\c++\My Projects\New folder\PersonsImages";
+                string DestinationsFolder = @"E:\apps\c++\My Projects\DVLD project\DVLD Project\PersonsImages";
 
                 string guide = Guid.NewGuid().ToString();
 
