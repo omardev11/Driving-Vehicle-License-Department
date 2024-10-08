@@ -124,7 +124,6 @@ E:\apps\c++\My Projects\New folder\DVLDDesltopFrontLayer\bin\Debug\ClassLibrary2
 E:\apps\c++\My Projects\New folder\DVLDDesltopFrontLayer\bin\Debug\ClassLibrary3.pdb
 E:\apps\c++\My Projects\New folder\DVLDDesltopFrontLayer\bin\Debug\ClassLibrary2.pdb
 E:\apps\c++\My Projects\New folder\DVLDDesltopFrontLayer\obj\Debug\DVLDDesl.FEA1C03B.Up2Date
-E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\bin\Debug\DVLDDesltopFrontLayer.exe.config
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\bin\Debug\DVLDDesltopFrontLayer.exe
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\bin\Debug\DVLDDesltopFrontLayer.pdb
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\bin\Debug\ClassLibrary3.dll
@@ -177,3 +176,4 @@ E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\obj\Debug\D
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\obj\Debug\DVLDDesl.FEA1C03B.Up2Date
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\obj\Debug\DVLDDesltopFrontLayer.exe
 E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\obj\Debug\DVLDDesltopFrontLayer.pdb
+E:\apps\c++\My Projects\DVLD project\DVLD Project\DVLD Desktop Layer\bin\Debug\DVLDDesltopFrontLayer.exe.config

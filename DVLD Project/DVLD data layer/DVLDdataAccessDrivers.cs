@@ -45,9 +45,9 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 ReturnID = -1;
             }
             finally
@@ -83,7 +83,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 return false;
             }
 
@@ -199,8 +199,9 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
                 ReturnID = -1;
             }
             finally
@@ -253,7 +254,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally
@@ -305,7 +306,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally

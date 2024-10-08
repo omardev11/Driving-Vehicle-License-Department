@@ -2,6 +2,7 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace DVLDdataAccessAllCountries
 {
@@ -49,7 +50,8 @@ namespace DVLDdataAccessAllCountries
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsDVLDAccessSetting.LogError(ex.Message);
+               
                 isFound = false;
             }
             finally
@@ -88,7 +90,7 @@ namespace DVLDdataAccessAllCountries
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally
@@ -134,7 +136,7 @@ namespace DVLDdataAccessAllCountries
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally
@@ -175,6 +177,7 @@ namespace DVLDdataAccessAllCountries
             }
             catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
 
             }
             finally { connection.Close(); }
@@ -225,7 +228,7 @@ namespace DVLDdataAccessAllCountries
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally

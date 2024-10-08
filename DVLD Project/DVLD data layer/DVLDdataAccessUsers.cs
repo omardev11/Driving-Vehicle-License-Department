@@ -76,6 +76,8 @@ namespace DVLDdataAccessLayer
 
             SqlCommand command = new SqlCommand(query, connection);
 
+            Passaword = clsDVLDAccessSetting.ComputeHash(Passaword);
+
             command.Parameters.AddWithValue("@UserName", UserName);
             command.Parameters.AddWithValue("@Password", Passaword);
             command.Parameters.AddWithValue("@IsActive", IsActive);
@@ -126,6 +128,8 @@ namespace DVLDdataAccessLayer
                  WHERE UserID = @UserID;";
 
             SqlCommand command = new SqlCommand(query, connection);
+
+            //Passaword = clsDVLDAccessSetting.ComputeHash(Passaword);
 
             command.Parameters.AddWithValue("@UserName", UserName);
             command.Parameters.AddWithValue("@Password", Passaword);
@@ -547,6 +551,8 @@ namespace DVLDdataAccessLayer
             string query = "SELECT UserID FROM Users WHERE UserName = @UserName and Password = @Password";
 
             SqlCommand command = new SqlCommand(query, connection);
+
+            Password = clsDVLDAccessSetting.ComputeHash(Password);
 
             command.Parameters.AddWithValue("@UserName", UserName);
             command.Parameters.AddWithValue("@Password", Password);

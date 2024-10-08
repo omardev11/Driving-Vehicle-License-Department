@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,7 +53,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 isFound = false;
             }
             finally
@@ -89,7 +95,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 isFound = false;
             }
             finally
@@ -135,7 +146,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 isFound = false;
             }
             finally
@@ -175,6 +191,11 @@ namespace DVLDdataAccessLayer
             catch (Exception ex)
             {
 
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
             }
             finally { connection.Close(); }
             return dt;
@@ -221,9 +242,14 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 IsUpdated = false;
             }
             finally

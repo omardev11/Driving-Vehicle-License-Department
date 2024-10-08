@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace DVLDdataAccessLayer
 {
@@ -47,9 +48,13 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName , "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 ReturnID = -1;
             }
             finally
@@ -98,7 +103,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 return false;
             }
 
@@ -138,7 +148,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 return false;
             }
 
@@ -198,7 +213,12 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 isFound = false;
             }
             finally
@@ -240,8 +260,14 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 IsDelted = false;
             }
             finally
@@ -279,8 +305,14 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+
+                if (!EventLog.SourceExists(clsDVLDAccessSetting.SourceName))
+                {
+                    EventLog.CreateEventSource(clsDVLDAccessSetting.SourceName, "Application");
+                }
+                EventLog.WriteEntry(clsDVLDAccessSetting.SourceName, ex.Message, EventLogEntryType.Error);
                 ReturnID = -1;
             }
             finally

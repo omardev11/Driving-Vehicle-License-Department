@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Resources;
 using System.Runtime.InteropServices;
+using Microsoft.Win32;
 
 namespace DVLDDesltopFrontLayer
 {
@@ -21,35 +22,56 @@ namespace DVLDDesltopFrontLayer
         {
             InitializeComponent();
         }
-        //public string _FilePath = "";
-        private static string _FilePath = @"E:\apps\c++\My Projects\DVLD project\DVLD Project\UserName and password.txt";
 
-        private void SaveUserName(string userName , string Password)
+        private static string _fILEpATHregistarionEditorForUserName = @"HKEY_CURRENT_USER\SOFTWARE\UserName";
+        private static string _fILEpATHregistarationEditorForPassword = @"HKEY_CURRENT_USER\SOFTWARE\Password";
+
+
+
+
+        private void SaveUserNameOnRegistarationEditor(string userName, string Password)
         {
-
-            string content = $"{userName}:{Password}";
-
-            File.WriteAllText(_FilePath, content);
-        }
-        private void RemberUserName(string FilePath)
-        {
-            if (File.Exists(FilePath))
+            try
             {
-                string content  = File.ReadAllText(FilePath);
+                Registry.SetValue(_fILEpATHregistarionEditorForUserName, "UserName", userName, RegistryValueKind.String);
 
-                if (!string.IsNullOrWhiteSpace(content))
-                {
-                    var parts = content.Split(':');
-
-                    txtUserName.Text = parts[0];
-                    txtPassword.Text = parts[1];
-                }
-               
+                Registry.SetValue(_fILEpATHregistarationEditorForPassword, "Password", Password, RegistryValueKind.String);
             }
+            catch (Exception ex) 
+            {
+                MessageBox.Show($"error {ex.Message}");
+                
+            }
+       
         }
+        private void RemberUserNameOnRegistarationEditor()
+        {
+            try
+            {
+                // read the value to the Registry
+                string UserName = Registry.GetValue(_fILEpATHregistarionEditorForUserName, "UserName", null) as string;
+
+                string Password = Registry.GetValue(_fILEpATHregistarationEditorForPassword, "Password", null) as string;
+
+                if (UserName != null && Password != null)
+                {
+                    txtUserName.Text = UserName;
+                    txtPassword.Text = Password;
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+
+         
+        }
+
         private void Login_Screen_Load(object sender, EventArgs e)
         {
-            RemberUserName(_FilePath);
+            RemberUserNameOnRegistarationEditor();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,9 +84,8 @@ namespace DVLDDesltopFrontLayer
                 {
                     if (checkBox1.Checked)
                     {
-                        SaveUserName(txtUserName.Text, txtPassword.Text);
+                        SaveUserNameOnRegistarationEditor(txtUserName.Text, txtPassword.Text);  
                     }
-                    //this.Hide();
                     Main main = new Main();
 
                     main.ShowDialog();

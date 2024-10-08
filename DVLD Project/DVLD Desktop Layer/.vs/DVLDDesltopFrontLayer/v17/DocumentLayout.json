@@ -3,30 +3,30 @@
   "WorkspaceRootPath": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld desktop layer\\login screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld desktop layer\\users\\change password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:users\\change password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\global settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:global settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665A2334-4512-4BE8-BC04-75D00C74DDE4}|..\\DVLD data layer\\DVLDdataAccessLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld data layer\\dvlddataaccessinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\users\\change password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:users\\change password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665A2334-4512-4BE8-BC04-75D00C74DDE4}|..\\DVLD data layer\\DVLDdataAccessLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld data layer\\dvlddataaccesscountries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\login screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:login screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld desktop layer\\people\\ctrlpersondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:people\\ctrlpersondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\people\\ctrlpersondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:people\\ctrlpersondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\people\\ctrladdeditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:people\\ctrladdeditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\people\\ctrladdeditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:people\\ctrladdeditperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665A2334-4512-4BE8-BC04-75D00C74DDE4}|..\\DVLD data layer\\DVLDdataAccessLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld data layer\\dvldaccesssetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665A2334-4512-4BE8-BC04-75D00C74DDE4}|..\\DVLD data layer\\DVLDdataAccessLayer.csproj|e:\\apps\\c\u002B\u002B\\my projects\\dvld project\\dvld project\\dvld data layer\\dvlddataaccessapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\login screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A074A59C-CEE0-46DA-8511-744CBB45A78C}|DVLDDesltopFrontLayer.csproj|solutionrelative:login screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,91 +36,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global Settings.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Global Settings.cs",
+              "RelativeDocumentMoniker": "Global Settings.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Global Settings.cs",
+              "RelativeToolTip": "Global Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:35:57.551Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Change Password.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Users\\Change Password.cs",
+              "RelativeDocumentMoniker": "Users\\Change Password.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Users\\Change Password.cs",
+              "RelativeToolTip": "Users\\Change Password.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:28:34.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Change Password.cs [Design]",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Users\\Change Password.cs",
+              "RelativeDocumentMoniker": "Users\\Change Password.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Users\\Change Password.cs [Design]",
+              "RelativeToolTip": "Users\\Change Password.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:28:30.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DVLDdataAccessInternationalLicenses.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessInternationalLicenses.cs",
+              "RelativeDocumentMoniker": "..\\DVLD data layer\\DVLDdataAccessInternationalLicenses.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessInternationalLicenses.cs",
+              "RelativeToolTip": "..\\DVLD data layer\\DVLDdataAccessInternationalLicenses.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:11:32.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DVLDdataAccessCountries.cs",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessCountries.cs",
+              "RelativeDocumentMoniker": "..\\DVLD data layer\\DVLDdataAccessCountries.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessCountries.cs",
+              "RelativeToolTip": "..\\DVLD data layer\\DVLDdataAccessCountries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:36:02.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login Screen.cs [Design]",
+              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Login Screen.cs",
+              "RelativeDocumentMoniker": "Login Screen.cs",
+              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Login Screen.cs [Design]",
+              "RelativeToolTip": "Login Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T16:19:58.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login Screen.cs",
               "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Login Screen.cs",
               "RelativeDocumentMoniker": "Login Screen.cs",
               "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\Login Screen.cs",
               "RelativeToolTip": "Login Screen.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:09:10.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CTRLPersonDetails.cs",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLPersonDetails.cs",
-              "RelativeDocumentMoniker": "People\\CTRLPersonDetails.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLPersonDetails.cs",
-              "RelativeToolTip": "People\\CTRLPersonDetails.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:05:27.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CTRLPersonDetails.cs [Design]",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLPersonDetails.cs",
-              "RelativeDocumentMoniker": "People\\CTRLPersonDetails.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLPersonDetails.cs [Design]",
-              "RelativeToolTip": "People\\CTRLPersonDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:05:25.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CTRLAddEditPerson.cs",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLAddEditPerson.cs",
-              "RelativeDocumentMoniker": "People\\CTRLAddEditPerson.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLAddEditPerson.cs",
-              "RelativeToolTip": "People\\CTRLAddEditPerson.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwEsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:03:48.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DVLDAccessSetting.cs",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDAccessSetting.cs",
-              "RelativeDocumentMoniker": "..\\DVLD data layer\\DVLDAccessSetting.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDAccessSetting.cs",
-              "RelativeToolTip": "..\\DVLD data layer\\DVLDAccessSetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:56:29.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CTRLAddEditPerson.cs [Design]",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLAddEditPerson.cs",
-              "RelativeDocumentMoniker": "People\\CTRLAddEditPerson.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD Desktop Layer\\People\\CTRLAddEditPerson.cs [Design]",
-              "RelativeToolTip": "People\\CTRLAddEditPerson.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:56:05.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DVLDdataAccessApplications.cs",
-              "DocumentMoniker": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessApplications.cs",
-              "RelativeDocumentMoniker": "..\\DVLD data layer\\DVLDdataAccessApplications.cs",
-              "ToolTip": "E:\\apps\\c\u002B\u002B\\My Projects\\DVLD project\\DVLD Project\\DVLD data layer\\DVLDdataAccessApplications.cs",
-              "RelativeToolTip": "..\\DVLD data layer\\DVLDdataAccessApplications.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:28:28.923Z"
+              "WhenOpened": "2024-10-02T06:09:10.506Z"
             }
           ]
         }

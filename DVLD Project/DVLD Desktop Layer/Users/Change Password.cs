@@ -15,7 +15,7 @@ namespace DVLDDesltopFrontLayer.Users
     public partial class Change_Password : Form
     {
         private int _UserID = -1;
-
+        private string _CrypPassaword;
         clsDVLDBusinessUsers _User;
         public Change_Password(int ID)
         {
@@ -32,8 +32,10 @@ namespace DVLDDesltopFrontLayer.Users
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-           
-            if (_User.Password == txtCurrentPassword.Text)
+            _CrypPassaword = Global_Settings.ComputeHash(txtCurrentPassword.Text);
+
+                       
+            if (_User.Password == _CrypPassaword)
             {
                 _User.Password = txtNewPassword.Text;
                 if (_User.Save())
@@ -58,7 +60,9 @@ namespace DVLDDesltopFrontLayer.Users
 
         private void txtCurrentPassword_Validating(object sender, CancelEventArgs e)
         {
-            if (_User.Password != txtCurrentPassword.Text)
+            _CrypPassaword = Global_Settings.ComputeHash(txtCurrentPassword.Text);
+
+            if (_User.Password != _CrypPassaword)
             {
                 errorProvider1.SetError(txtCurrentPassword, "Passaword is Wrong");
             }

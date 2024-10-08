@@ -77,7 +77,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally
@@ -155,7 +155,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 isFound = false;
             }
             finally
@@ -249,7 +249,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 return false;
             }
 
@@ -299,8 +299,10 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
+
                 IsFound = false;
             }
             finally
@@ -338,7 +340,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                                clsDVLDAccessSetting.LogError(ex.Message);
                 return false;
             }
 
@@ -376,6 +378,7 @@ namespace DVLDdataAccessLayer
             }
             catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
 
             }
             finally { connection.Close(); }
@@ -463,8 +466,10 @@ namespace DVLDdataAccessLayer
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
+
                 isFound = false;
             }
             finally
@@ -508,8 +513,9 @@ namespace DVLDdataAccessLayer
                 }
                 reader.Close();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                clsDVLDAccessSetting.LogError(ex.Message);
 
             }
             finally { connection.Close(); }
